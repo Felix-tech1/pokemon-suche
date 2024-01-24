@@ -155,12 +155,12 @@ function getPokemonInfo(json) {
     karte.appendChild(nameDiv);
     karte.appendChild(typeDiv);
     karte.appendChild(hightDiv);
-    karte.appendChild(abilitydiv1);
-    karte.appendChild(abilitydiv2);
     karte.appendChild(bild);
     karte.appendChild(weightDiv);
-    karte.appendChild(abilitdescdiv1)
-    karte.appendChild(abilitdescdiv2)
+    karte.appendChild(abilitydiv1);
+    karte.appendChild(abilitdescdiv1);
+    karte.appendChild(abilitydiv2);
+    karte.appendChild(abilitdescdiv2);  
     content.appendChild(karte);
 
 

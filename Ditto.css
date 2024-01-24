@@ -30,7 +30,7 @@ body   {
 
     width: 255px;
     height: 244px;
-    bottom: 90px;
+    bottom: 43px;
     left: 92px;
     background-size: 300px;
     position: relative;
@@ -61,37 +61,36 @@ body   {
 .ability1 {
     position: relative;
     left: 30px;
-    top: 213px;
+    top: -58px;
     width: 200px;
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .abilitidesc1{
-    position: relative;
-    bottom: 78px;
+    margin-left: 30px;
+    margin-top: -57px;
     font-size: xx-small;
     width:372px;
-    left: 30px;
-
 }
 
 .ability2 {
-    position: relative;
+    position: absolute;
     left: 30px;
-    top: 272px;
+    top: 402px;
     width:200px;
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .abilitidesc2 {
+    position: absolute;
+    bottom:112px;
     margin-left: 30px;
-    margin
-    bottom: 102px;
+    margin-top: 0px;
+    
     font-size: xx-small;
     width:380px;
-    left:30px;
 }
 
 .pokehight {
@@ -105,7 +104,7 @@ body   {
 .pokeweight {
     position: relative;
     left: 235px;
-    top: 117px;
+    top: 160px;
     width: 150px;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
