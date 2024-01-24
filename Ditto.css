@@ -16,6 +16,7 @@ body   {
     position: relative;
     left: 1050px;
     width: 300px;
+
 }
 .karte {
     height: 420px;;
@@ -61,7 +62,7 @@ body   {
 .ability1 {
     position: relative;
     left: 30px;
-    top: -58px;
+    top: -56px;
     width: 200px;
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
