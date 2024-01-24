@@ -1,0 +1,149 @@
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+body   { 
+	background-color: rgb(63, 63, 63); 
+	color: rgb(0, 0, 0);
+    
+    
+}
+
+.Allesueber{
+    position: relative;
+    left: 1050px;
+    width: 300px;
+}
+.karte {
+    height: 420px;;
+    width: 420px;
+    height: 590px;
+    background-size: 420px;
+    position: relative;
+
+}
+
+.pokemonbild {
+
+    width: 255px;
+    height: 244px;
+    bottom: 90px;
+    left: 92px;
+    background-size: 300px;
+    position: relative;
+
+
+}
+
+.pokename {
+    bottom: px;
+    left: 100px;
+    font-weight: 900;
+    width: 220px;
+    position: relative;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.poketype {
+    position: relative;
+    bottom: 25px;
+    left: 310px;
+    width: 60px;
+    font-weight: 500;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ability1 {
+    position: relative;
+    left: 30px;
+    top: 213px;
+    width: 200px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.abilitidesc1{
+    position: relative;
+    bottom: 78px;
+    font-size: xx-small;
+    width:372px;
+    left: 30px;
+
+}
+
+.ability2 {
+    position: relative;
+    left: 30px;
+    top: 272px;
+    width:200px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.abilitidesc2 {
+    margin-left: 30px;
+    margin
+    bottom: 102px;
+    font-size: xx-small;
+    width:380px;
+    left:30px;
+}
+
+.pokehight {
+    position: relative;
+    left: 212px;
+    top: 455px;
+    width: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.pokeweight {
+    position: relative;
+    left: 235px;
+    top: 117px;
+    width: 150px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pokeid {
+    position: relative;
+    top: 550px;
+    left: 370px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:40px;
+}
+
+.Eingabeüberschrifft {
+    position: relative;
+    left: 00px;
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    position: relative;
+}
+
+.label {
+    left: 450px;
+    top: 50px;
+    position: relative;
+}
+
+#pokesearch {
+    position: relative;
+    bottom: 75px;
+    right: 450px;
+}
+
+.btn {
+    position: relative;
+    bottom: 75px;
+    right: 450px;
+
+}

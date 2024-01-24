@@ -1,0 +1,21 @@
+[
+    {
+        "id": "ede821fce96617cf",
+        "type": "template",
+        "z": "7cc4d9cfed2878d0",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\n{\"name\": \"{{payload.name}}\",\n   \"id\": {{payload.id}} ,\n   \"typ\":\"{{payload.types.0.type.name}}\",\n   \"gewicht\": \"{{payload.weight}}\",\n   \"groesse\": \"{{payload.height}}\",\n   \"bild\":\"{{payload.sprites.front_default}}\"\n   }\n",
+        "output": "json",
+        "x": 1240,
+        "y": 620,
+        "wires": [
+            [
+                "28c5e08fd9b88c5f"
+            ]
+        ]
+    }
+]
