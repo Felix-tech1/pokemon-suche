@@ -40,7 +40,8 @@ body   {
 }
 
 .pokename {
-    bottom: px;
+    overflow: hidden;
+    height: 40px;
     left: 100px;
     font-weight: 900;
     width: 220px;

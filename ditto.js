@@ -96,10 +96,18 @@ function getPokemonInfo(json) {
     if (json.id.toString().length == 3) {
         bildid = "" + json.id;
     }
-
+    
+   
     var bild = document.createElement('img');
+    bild.className = 'pokemonbild';
     bild.src = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/' + bildid + '.png'
-    bild.className = 'pokemonbild'
+    
+    if (bild.src == "https://assets.pokemon.com/assets/cms2/img/pokedex/full/.png") {
+        bild.src == "{{ url('./Bilder/No_image_available.png') }}";
+    }
+    
+    
+    
 
     var typeDiv = document.createElement('div');
     typeDiv.textContent = json.types[0].type.name;
@@ -146,6 +154,8 @@ function getPokemonInfo(json) {
         .then(json => {
             abilitdescdiv2.innerHTML = json.effect_entries[1].effect;
         });
+
+    
 
 
 
