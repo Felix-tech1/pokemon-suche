@@ -108,11 +108,11 @@ function getPokemonInfo(json) {
     karte.style = 'background-image: url("./Bilder/' + json.types[0].type.name + '.png");';
 
     var hightDiv = document.createElement('div');
-    hightDiv.innerHTML = '<b>Größe</b>: 0,' + json.height + 'm';
+    hightDiv.innerHTML = '<b>Size</b>:' + json.height/ 10 + 'm';
     hightDiv.className = 'pokehight';
 
     var weightDiv = document.createElement('div');
-    weightDiv.innerHTML = '<b> Gewicht</b>: ' + json.weight / 10 + 'kg';
+    weightDiv.innerHTML = '<b> Weight</b>: ' + json.weight / 10 + 'kg';
     weightDiv.className = 'pokeweight';
 
     var abilitydiv1 = document.createElement('div');
@@ -130,7 +130,7 @@ function getPokemonInfo(json) {
     fetch(json.abilities[0].ability.url)
         .then(res => res.json())
         .then(json => {
-            abilitdescdiv1.innerHTML = json.effect_entries[0].effect;
+            abilitdescdiv1.innerHTML = json.effect_entries[1].effect;
         });
     
 

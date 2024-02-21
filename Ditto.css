@@ -71,8 +71,11 @@ body   {
 .abilitidesc1{
     margin-left: 30px;
     margin-top: -57px;
-    font-size: xx-small;
+    font-size: x-small;
     width:372px;
+    height: 76px;
+    overflow: hidden
+    
 }
 
 .ability2 {
@@ -86,14 +89,15 @@ body   {
 
 .abilitidesc2 {
     position: absolute;
-    bottom:112px;
+    bottom:90px;
     margin-left: 30px;
     margin-top: 0px;
+    overflow: hidden;
+    font-size: x-small;
+    width:372px;
+    height: 76px;
     
-    font-size: xx-small;
-    width:380px;
 }
-
 .pokehight {
     position: relative;
     left: 212px;
@@ -119,6 +123,11 @@ body   {
     width:40px;
 }
 
+.Beschreibung{
+    position: relative;
+    bottom: 25px;
+    color: white;
+}
 .Eingabeüberschrifft {
     position: relative;
     left: 00px;
