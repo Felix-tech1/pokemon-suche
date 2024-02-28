@@ -101,9 +101,9 @@ function getPokemonInfo(json) {
     var bild = document.createElement('img');
     bild.className = 'pokemonbild';
     bild.src = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/' + bildid + '.png'
-    
-    if (bild.src == "https://assets.pokemon.com/assets/cms2/img/pokedex/full/.png") {
-        bild.src == "{{ url('./Bilder/No_image_available.png') }}";
+    console.log(bild.src);
+    if (bild.src == 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/.png') {
+        bild.src = 'https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png';
     }
     
     
